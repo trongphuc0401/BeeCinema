@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập tài khoản thành viên | Beecinema</title>
+    <link rel="icon" href="./assets/img/logo/Bee (3).png" style="width: 100%;">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="stylesheet"type="text/css"href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+</head>
+<body>
+     <!-- Page Preloder -->
+     <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Header Section Begin -->
+    <div class="header">
+        <div class="nav_movie">
+            <div class="navbar_movie">
+                <div class="logo-container">
+                    <a href="./index.html">
+                        <h1  class="logo gradient">BeeCinema</h1>
+                    </a>    
+                </div>
+                <div class="col-lg-7">
+                    <div class="menu-container">    
+                        <ul class="menu-list">
+                            <li class="menu-list-item menu-list-item__TrangChu"> <a href="./index.html">Trang Chủ</a></li>
+                            <div class="subnav">
+                                <a href="#" >
+                                    <li class="menu-list-item"> <a href="">Phim</a>
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </li>
+                                    <div class="suv-list-item">
+                                        <ul >
+                                            <li style="margin-bottom: 5px;"><a class="suv-list-item-item"href="">Phim Sắp Chiếu</a></li>
+                                            <li style="margin-bottom: 5px;"><a class="suv-list-item-item"href="">Phim Đang Chiếu</a></li>
+                                            <li style="margin-bottom: 5px;"><a class="suv-list-item-item"href="">Suất Chiếu Đặt Biệt</a></li>
+                                        </ul>           
+                                    </div>
+                                </a>
+                            </div>
+                            <li class="menu-list-item"> <a href="">Lịch Chiếu</a>  </li>
+                            <li class="menu-list-item"> <a href="">Giá Vé</a>  </li>
+                            <li class="menu-list-item"> <a href="">Ưu Đãi </a> </li>
+                            <div class="search-btn">
+                                <span>
+                                    <i class="icon fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </div>
+                            <div class="toggle">
+                                <i class="fas fa-moon toggle-icon"></i>
+                                <i class="fas fa-sun toggle-icon"></i>
+                                <div class="toggle-ball"></div>
+                            </div>                     
+                         </ul>
+                         
+                    </div>
+                </div>
+               
+                <div class="user-container">
+                    <div class="user-nav">
+                        <div class="menuTogge"></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Header Section End -->
+ <!-- Login Section Begin -->
+ <section class="login spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="login__form">
+                    <h3>Đăng nhập</h3>
+                    <form action="./index.html">
+                        <div class="input__item">
+                            <input type="text" placeholder="Nhập email của bạn">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="input__item">
+                            <input type="text" placeholder="Nhập mật khẩu của bạn">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <button type="submit" class="site-btn" style="background-color: var(--bee-color2);">Đăng nhập</button>
+                    </form>
+                    <a href="#" class="forget_pass">Quên mật khẩu ?</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="login__register">
+                    <h3>Tạo tài khoản mới ?</h3>
+                    <a href="./signup.html" class="primary-btn">Đăng ký ngay</a>
+                </div>
+            </div>
+        </div>
+        <div class="login__social">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                    <div class="login__social__links">
+                        <span>hoặc</span>
+                        <ul>
+                            <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i> Đăng nhập với FaceBook</a></li>
+                            <li><a href="#" class="google"><i class="fa-brands fa-google"></i> Đăng nhập với Google</a></li>
+                            <li><a href="#" class="twitter"><i class="fa-brands fa-twitter"></i> Đăng nhập với Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Login Section End -->
+     
+<!-- Footer Section Begin -->
+<footer class="footer" style="top: 25px;" >
+    <div class="page-up">
+        <a href="#" id="scrollToTopButton"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer__logo">
+                    <div class="logo-container">
+                        <a href="">
+                            <h1  class="logo gradient">BeeCinema</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="footer__nav">
+                    <div class="footer-col">
+                        <h4>BeeCinema</h4>
+                        <ul style="">
+                            <li><a href="#">Giới Thiệu</a></li>
+                            <li><a href="#">Tiện Ích Online</a></li>
+                            <li><a href="#">Thẻ Quà Tặng</a></li>
+                            <li><a href="#">Tuyển Dụng</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Điều khoản</h4>
+                        <ul>
+                            <li><a href="#">Điều Khoản Chung</a></li>
+                            <li><a href="#">Điều Khoản Giao Dịch</a></li>
+                            <li><a href="#">Chính Sách Thanh Toán</a></li>
+                            <li><a href="#">Chính Sách Bảo Mật</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Liên hệ</h4>
+                        <ul>
+                            <li><a href="#">Hotline: 1900-XXXX</a></li>
+                            <li><a href="#">Email:hoidap@bee.vn</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Kết nối</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>    
+</footer>
+<!-- Footer Section End -->
+<script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
